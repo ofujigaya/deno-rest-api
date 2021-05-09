@@ -1,6 +1,6 @@
 {
   "$schema": "https://deno.land/x/denon@2.4.7/schema.json",
-  "allow": { "net": true, "env": true, "read": "./db/" },
+  "allow": { "net": true, "env": true, "read": "./db", "write": "./db" },
   "scripts": {
     "start": {
       "cmd": "server.ts",

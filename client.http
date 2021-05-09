@@ -3,3 +3,28 @@ GET http://localhost:8000/
 ###
 
 GET http://localhost:8000/todos
+
+###
+
+GET http://localhost:8000/todos/<id>
+###
+
+POST  http://localhost:8000/todos/
+content-type: application/json
+
+{
+  "title": "Petting 🦕"
+}
+
+###
+
+PUT  http://localhost:8000/todos/d1694e16-352c-45c1-9875-1abfeae10209
+content-type: application/json
+
+{
+  "done": true
+}
+
+###
+
+DELETE  http://localhost:8000/todos/d1694e16-352c-45c1-9875-1abfeae10209
